@@ -18,7 +18,8 @@
     background-color: #fefefe;
     margin: 5px auto; /* 15% from the top and centered */
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 15%; /* Could be more or less, depending on screen size */
+
 }
 
 /* The Close Button */
@@ -66,7 +67,7 @@
 }
 /* Full-width input fields */
 input[type=text], input[type=password] {
-    width: 100%;
+    width: 80%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -82,7 +83,7 @@ button {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 80%;
 }
 
     button:hover {
@@ -103,13 +104,10 @@ button {
     position: relative;
 }
 
-img.avatar {
-    width: 40%;
-    border-radius: 50%;
-}
-
 .container {
     padding: 16px;
+    width: 60%;
+
 }
 
 span.psw {
